@@ -4,8 +4,8 @@
 
 #define MY_CAN_ID CAN_ID_ANDREI_B
 
-#define CAN0_INT 2 // Set INT to pin 2
-#define CAN0_CS 53 // Set CS to pin 2
+#define CAN0_INT 8 // Set INT to pin 2
+#define CAN0_CS 10 // Set CS to pin 2
 
 void dd_can_setup();
 void dd_can_recv_loop();

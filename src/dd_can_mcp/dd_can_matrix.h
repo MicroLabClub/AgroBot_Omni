@@ -2,6 +2,9 @@
 #define DD_CAN_MATRIX_H_
 #include <stdint.h>
 
+#define CAN_ID_WHEEL_POW  0x123
+#define CAN_ID_WHEEL_DIR  0x123 // 124
+
 #define CAN_ID_ALEX_C   0x111
 #define CAN_ID_CRISTI_S 0x112
 #define CAN_ID_CRISTI_P 0x113
@@ -9,8 +12,6 @@
 #define CAN_ID_DORIN_A  0x128
 #define CAN_ID_MIHAIL_P 0x129
 #define CAN_ID_ROMAN_A  0x125
-#define CAN_ID_VICTOR_C 0x124
-#define CAN_ID_DAVID_C  0x123
 #define CAN_ID_ANDREI_B 0x222
 
 enum Can_Matrix_ID

@@ -52,11 +52,11 @@ uint16_t dd_can_matrix_get_msg_ref(uint16_t rxId)
     case CAN_ID_ROMAN_A:
         msg_ref = CAN_MSG_8;
         break;
-    case CAN_ID_DAVID_C:
+    case CAN_ID_WHEEL_POW:
         msg_ref = CAN_MSG_9;
         break;
-    case CAN_ID_VICTOR_C:
-        msg_ref = CAN_MSG_10;
+    // case CAN_ID_WHEEL_DIR:
+    //     msg_ref = CAN_MSG_10;
         break;
     default:
         msg_ref = CAN_MSG_DUMMY;

@@ -3,7 +3,7 @@
 #include "stdint.h"
 
 
-#define DD_BUZZER_PIN A8
+#define DD_BUZZER_PIN 9
 
 void dd_buzzer_setup();
 void dd_buzzer_loop();
